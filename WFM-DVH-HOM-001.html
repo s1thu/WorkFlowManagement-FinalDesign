@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- Font Awesome Kit Code -->
+    <script src="https://kit.fontawesome.com/b1ef4c458f.js" crossorigin="anonymous"></script>
+    <!-- Pignose Calender -->
+    <link href="./plugins/pg-calendar/css/pignose.calendar.min.css" rel="stylesheet">
+    <!-- Chartist -->
+    <link rel="stylesheet" href="./plugins/chartist/css/chartist.min.css">
+    <link rel="stylesheet" href="./plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Custom CSS for team Zash -->
+    <link rel="stylesheet" href="css/customize.css">
+    <!-- Chart js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="WFM-LGN001.html">
+
+
+                    <b class="logo-abbr"><img src="images/DATLogo.png  " alt=""> </b>
+                    <!-- small logo when toggle off  -->
+
+                    <span class="logo-compact"><img src="./images/DATLogo.png" class="img-fluid" alt=""></span>
+
+                    <span class="brand-title text-center">
+                            <img src="./images/DATLogo.png" class="img-fluid expand-logo w-50 h-50" alt="">
+                        </span>
+                </a>
+
+            </div>
+        </div>
+
+
+
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+
+            <div class="header-content clearfix">
+
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons log-user  dropdown ">User :
+                        </li>
+                        <li class="icons log-user  dropdown ">Date :
+                        </li>
+                        <li class="icons dropdown d-none d-md-flex">
+                            <a href="javascript:void(0)" class="log-user" data-toggle="dropdown">
+                                <span>English</span> <i class="fa fa-angle-down f-s-14" aria-hidden="true"></i>
+                            </a>
+                            <div class="drop-down dropdown-language animated fadeIn  dropdown-menu">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li><a href="javascript:void()">English</a></li>
+                                        <li><a href="javascript:void()">Dutch</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+
+        <div class="nk-sidebar">
+            <div class="nk-nav-scroll">
+
+                <ul class="metismenu" id="menu">
+
+                    <li>
+
+                        <a href="WFM-DVH-HOM-001.html" aria-expanded="false">
+                            <i class="fas fa-home"></i><span class="nav-text">Home</span>
+                        </a>
+                        </a>
+                    </li>
+
+                    <li>
+
+                        <a href="WFM-DVH-OTF-001.html" aria-expanded="false">
+                            <i class="fa-solid fa-file-lines"></i><span class="nav-text">OverTime Form</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="WFM-DVH-REP-001.html" aria-expanded="false">
+                            <i class="fa-solid fa-chalkboard-user"></i><span class="nav-text">OverTime Report</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="WFM-DVH-R&S-001.html" aria-expanded="false">
+                            <i class="fa-solid fa-file-circle-exclamation"></i><span class="nav-text">Rules & Signature</span>
+                        </a>
+                    </li>
+                    <li style="margin-top: 200px">
+                        <a href="#" aria-expanded="false">
+                            <button type="button" class="btn ml-5 logout-btn ">Log out</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body ">
+            <div class="row page-titles mx-0 ">
+                <div class="col p-md-0 ">
+                    <ol class="breadcrumb ">
+                        <li class="breadcrumb-item active "><a href="javascript:void(0) ">Home</a></li>
+                    </ol>
+                </div>
+            </div>
+            <!-- row -->
+            <div class="container-fluid ">
+                <div class="row noti ">
+                    <div class="col-lg-3 col-sm-6 ">
+                        <a href="view/DivisionHead/WFM-DVH-APV-001.html">
+                        <div class="card gradient-1 bg-success ">
+                            <div class="card-body ">
+                                <div class="d-inline-block ">
+                                    <h2 class="text-white ">Approved</h2>
+                                </div>
+                                <span class="float-right display-5 opacity-5 "><i class="fas fa-check-circle "></i></span>
+
+                            </div>
+                            <h3 class="text-white text-right pr-4 ">12</h3>
+                            <hr style="border:solid 1px white;width:90%;text-align: center; ">
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <a href="view/DivisionHead/WFM-DVH-REQ-001.html">
+                        <div class="card gradient-2 ">
+                            <div class="card-body ">
+
+                                <div class="d-inline-block ">
+                                    <h2 class="text-white ">Request Status</h2>
+
+                                </div>
+                                <span class="float-right display-5 opacity-5 "><i
+                                    class="fa-solid fa-chalkboard-user "></i></span>
+                            </div>
+                            <h3 class="text-white text-right pr-4 ">3</h3>
+                            <hr style="border:solid 1px white;width:90%;text-align: center; ">
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <a href="view/DivisionHead/WFM-DVH-REV-001.html">
+                        <div class="card gradient-3 ">
+                            <div class="card-body ">
+                                <div class="d-inline-block ">
+                                    <h2 class="text-white ">Revise</h2>
+                                </div>
+                                <span class="float-right display-5 opacity-5 "><i class="fa-solid fa-recycle "></i></span>
+                            </div>
+                            <h3 class="text-white text-right pr-4 ">2</h3>
+                            <hr style="border:solid 1px white;width:90%;text-align: center; ">
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <a href="view/DivisionHead/WFM-DVH-REJ-001.html">
+                        <div class="card gradient-4 ">
+                            <div class="card-body ">
+                                <div class="d-inline-block ">
+                                    <h2 class="text-white ">Reject</h2>
+                                </div>
+                                <span class="float-right display-5 opacity-5 "><i class="fa-solid fa-xmark "></i></span>
+                            </div>
+                            <h3 class="text-white text-right pr-4 ">1</h3>
+                            <hr style="border:solid 1px white;width:90%;text-align: center; ">
+                        </div>
+                    </a>
+                    </div>
+
+
+
+                </div>
+                <hr style=" border: solid 1px black;text-align: center;">
+                <div class="row noti">
+                    <div class="col-lg-3 col-sm-6 ">
+                        <a href="view/DivisionHead/WFM-DVH-APR-001.html">
+                        <div class="card gradient-5 ">
+                            <div class="card-body ">
+                                <div class="d-inline-block ">
+                                    <h2 class="text-white ">Approve Request</h2>
+                                </div>
+                                <span class="float-right display-5 opacity-5 "><i class="fa-solid fa-file-import "></i></span>
+                            </div>
+                            <h3 class="text-white text-right pr-4 ">2</h3>
+                            <hr style="border:solid 1px white;width:90%;text-align: center; ">
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <a href="view/DivisionHead/WFM-DVH-RER-001.html">
+                        <div class="card gradient-6 ">
+                            <div class="card-body ">
+                                <div class="d-inline-block ">
+                                    <h2 class="text-white ">Revise Request</h2>
+                                </div>
+                                <span class="float-right display-5 opacity-5 "><i class="fa-solid fa-file-import "></i></span>
+                            </div>
+                            <h3 class="text-white text-right pr-4 ">2</h3>
+                            <hr style="border:solid 1px white;width:90%;text-align: center; ">
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <a href="view/DivisionHead/WFM-DVH-HIS-001.html">
+                        <div class="card gradient-7 ">
+                            <div class="card-body ">
+                                <div class="d-inline-block ">
+                                    <h2 class="text-white ">Approve History</h2>
+                                </div>
+                                <span class="float-right display-5 opacity-5 "><i class="fa-solid fa-clock-rotate-left "></i></span>
+                            </div>
+                            <h3 class="text-white text-right pr-4 ">100</h3>
+                            <hr style="border:solid 1px white;width:90%;text-align: center; ">
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="row noti">
+                    <!-- Bar chart -->
+                    <div class="col m-2">
+
+                        <div class="chartCard">
+                            <div class="chartBox">
+                                <canvas id="myChart"></canvas>
+                                <script>
+                                    var xValues = ["ECommerce", "Finance", "Hospital", "Hotel"];
+                                    var yValues = [55, 49, 44, 24];
+                                    var barColors = ['rgba(255, 26, 104, 0.2)',
+                                        'rgba(255, 206, 86, 0.2)',
+                                        'rgba(54, 162, 235, 0.2)',
+                                        'rgba(153, 102, 255, 0.2)'
+                                    ];
+
+                                    new Chart("myChart", {
+                                        borderWidth: 1,
+                                        type: "bar",
+                                        data: {
+                                            labels: xValues,
+                                            datasets: [{
+                                                backgroundColor: barColors,
+                                                data: yValues,
+                                                borderColor: [
+                                                    'rgba(255, 26, 104, 1)',
+                                                    'rgba(255, 206, 86,1)',
+                                                    'rgba(54, 162, 235, 1)',
+                                                    'rgba(153, 102, 255, 1)'
+                                                ],
+                                                borderWidth: 1
+                                            }],
+
+                                        },
+                                        options: {
+                                            legend: {
+                                                display: false
+                                            },
+                                            title: {
+                                                display: true,
+                                                text: "Porduction by Team ZASH"
+                                            }
+                                        }
+                                    });
+                                </script>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!--**********************************
+            Content body end
+        ***********************************-->
+
+
+            <!--**********************************
+            Footer start
+        ***********************************-->
+            <div class="footer ">
+                <div class="copyright ">
+                    <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab ">Team ZASH</a> 2022
+                    </p>
+                </div>
+            </div>
+            <!--**********************************
+            Footer end
+        ***********************************-->
+        </div>
+        <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+        <!--**********************************
+        Scripts
+    ***********************************-->
+
+        <script src="plugins/common/common.min.js "></script>
+        <script src="js/custom.min.js "></script>
+        <script src="js/settings.js "></script>
+        <script src="js/gleek.js "></script>
+        <script src="js/styleSwitcher.js "></script>
+
+
+
+        <script src="./js/customize.js "></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+/* Login Start */
+.background {
+  background: #035397;
+}
+
+.icon-font-size {
+  font-size: 2.2rem;
+}
+
+/* input[type="text"],
+input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #61c5fa;
+  border: 2px solid #5ab0db;
+}
+
+input[type="text"],
+input[type="password"]:hover {
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+input[type="password"]:focus:hover {
+  outline: none;
+  box-shadow: 0px 0px 10px #61c5fa;
+  border: 1px solid #5ab0db;
+  border-radius: 0;
+}
+input[type="text"]:focus:hover {
+  outline: none;
+  box-shadow: 0px 0px 10px #61c5fa;
+  border: 1px solid #5ab0db;
+  border-radius: 0;
+} */
+
+input[type="text"],
+input[type="password"] {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  padding-left: 20px !important;
+}
+
+[type="text"]:focus,
+[type="password"]:focus {
+  box-shadow: 0 0 10px rgba(67, 136, 238);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(67, 136, 238);
+}
+
+#border {
+  border: 1px solid black;
+}
+.height {
+  height: 100px;
+}
+/* Login End */
+
+/* ADD User Form in ADMIN */
+.formcolor {
+  background: #fcd900;
+}
+.width {
+  width: 120px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+.content-height {
+  min-height: 80vh;
+}

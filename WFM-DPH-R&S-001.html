@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- Font Awesome Kit Code -->
+    <script src="https://kit.fontawesome.com/b1ef4c458f.js" crossorigin="anonymous"></script>
+    <!-- Pignose Calender -->
+    <link href="./plugins/pg-calendar/css/pignose.calendar.min.css" rel="stylesheet">
+    <!-- Chartist -->
+    <link rel="stylesheet" href="./plugins/chartist/css/chartist.min.css">
+    <link rel="stylesheet" href="./plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Custom CSS for team Zash -->
+    <link rel="stylesheet" href="css/customize.css">
+
+    <!-- Custom Stylesheet -->
+    <link href="./plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet">
+    <!-- Page plugins css -->
+    <link href="./plugins/clockpicker/dist/jquery-clockpicker.min.css" rel="stylesheet">
+    <!-- Color picker plugins css -->
+    <link href="./plugins/jquery-asColorPicker-master/css/asColorPicker.css" rel="stylesheet">
+    <!-- Date picker plugins css -->
+    <link href="./plugins/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet">
+    <!-- Daterange picker plugins css -->
+    <link href="./plugins/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
+    <link href="./plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <b class="logo-abbr"><img src="images/DATLogo.png  " alt=""> </b>
+                    <!-- small logo when toggle off  -->
+
+                    <span class="logo-compact"><img src="./images/DATLogo.png" class="img-fluid" alt=""></span>
+                    <span class="brand-title text-center">
+                        <img src="./images/DATLogo.png" class="img-fluid expand-logo w-50 h-50" alt="">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+            <div class="header-content clearfix">
+
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+
+
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons log-user  dropdown ">User :
+                        </li>
+                        <li class="icons log-user  dropdown ">Date :
+                        </li>
+                        <li class="icons dropdown d-none d-md-flex">
+                            <a href="javascript:void(0)" class="log-user" data-toggle="dropdown">
+                                <span>English</span> <i class="fa fa-angle-down f-s-14" aria-hidden="true"></i>
+                            </a>
+                            <div class="drop-down dropdown-language animated fadeIn  dropdown-menu">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li><a href="javascript:void()">English</a></li>
+                                        <li><a href="javascript:void()">Dutch</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar">
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu">
+
+                    <li>
+                        <a href="WFM-DPH-HOM-001.html" aria-expanded="false">
+                            <i class="fas fa-home"></i><span class="nav-text">Home</span>
+                        </a>
+                        </a>
+                    </li>
+                    <li>
+
+                        <a href="WFM-DPH-OTF-001.html" aria-expanded="false">
+                            <i class="fa-solid fa-file-lines"></i><span class="nav-text">OverTime Form</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="WFM-DPH-REP-001.html" aria-expanded="false">
+                            <i class="fa-solid fa-chalkboard-user"></i><span class="nav-text">OverTime Report</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="WFM-DPH-R&S-001.html" aria-expanded="false">
+                            <i class="fa-solid fa-file-circle-exclamation"></i><span class="nav-text">Rules & Signature</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-expanded="false">
+                            <button type="button" class="btn ml-5 logout-btn ">Log out</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <div class="row page-titles mx-0">
+                <div class="col p-md-0">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item active"><a href="javascript:void(0)">Rules</a></li>
+                    </ol>
+                </div>
+            </div>
+            <!-- row -->
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card card-bg">
+                            <div class="card-body">
+                                <ol class="default-ol">
+                                    <li><a href="javascript:void(0)" style="font-size:25px;" class="text-dark"> No more than 3 hours for weekdays</a>
+                                    </li>
+                                    <li><a href="javascript:void(0)" style="font-size:25px;" class="text-dark">No more than 6 hrs for weekend and Holidays</a>
+                                    </li>
+                                    <li><a href="javascript:void(0)" style="font-size:25px;" class="text-dark">No more that 36 hrs per month</a>
+                                    </li>
+                                    <li><a href="javascript:void(0)" style="font-size:25px;" class="text-dark"> To be granted offday (substitute rest day) if OT is more than 6 hours</a>
+                                    </li>
+                                    <li><a href="javascript:void(0)" style="font-size:25px;" class="text-dark">Must apply OT form between 2 days after OT</a>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- #/ container -->
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Team ZASH</a> 2022</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+</body>
+
+</html>

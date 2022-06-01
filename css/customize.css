@@ -1,0 +1,282 @@
+/* Page title styling */
+
+.page-titles .breadcrumb {
+  margin-bottom: 0;
+  padding: 0;
+  background: transparent;
+  font-size: 0.875rem;
+  float: left;
+}
+
+/* approve card bg-color */
+
+/* 
+gradient-1,
+.dropdown-mega-menu .ext-link.link-1 a,
+.morris-hover,
+.datamaps-hoverover {
+    background-image: linear-gradient(to right, #11AD2A, #58c569);
+} */
+
+/* .gradient-1,
+.dropdown-mega-menu .ext-link.link-1 a,
+.morris-hover,
+.datamaps-hoverover {
+    background-image: linear-gradient(230deg, #759bff, #843cf6);
+} */
+
+/* .gradient-1 {
+    background-image: linear-gradient(to right, lime, LawnGreen);
+} */
+
+.gradient-1 {
+  background-image: linear-gradient(to right, #11ad2a, #58c569);
+}
+
+/* 
+.gradient-2,
+.dropdown-mega-menu .ext-link.link-3 a {
+    background-image: linear-gradient(230deg, darkorange, #ffc966);
+} */
+
+.gradient-2 {
+  background-image: linear-gradient(to right, darkorange, #ffc966);
+}
+
+/* .gradient-3,
+.dropdown-mega-menu .ext-link.link-2 a,
+.header-right .icons .user-img .activity {
+    background-image: linear-gradient(230deg, #137186, #599baa);
+} */
+
+.gradient-3 {
+  background-image: linear-gradient(to right, #137186, #599baa);
+}
+
+/* .gradient-4,
+    .sidebar-right .nav-tabs .nav-item .nav-link.active::after,
+    .sidebar-right .nav-tabs .nav-item .nav-link.active span i::before {
+        background-image: linear-gradient(230deg, #CB0B0B, #da5454);
+    } */
+
+.gradient-4 {
+  background-image: linear-gradient(to right, #cb0b0b, #da5454);
+  color: #fff;
+}
+
+.gradient-5 {
+  background-image: linear-gradient(to right, blue, #4c4cff);
+  color: #fff;
+}
+
+.gradient-7 {
+  color: #fff;
+  background-image: linear-gradient(to right, #b0a990, #c7c2b1);
+}
+
+.gradient-6 {
+  background-image: linear-gradient(to right, DarkCyan, #4cadad);
+  color: #fff;
+}
+
+/* logo pic when navbar expand */
+
+.big-logo {
+  width: 100px;
+}
+
+.expand-logo {
+  text-align: center;
+  line-height: auto;
+  margin: -18px;
+  margin-left: 40px;
+}
+
+/* Nav-header bg color */
+
+[data-nav-headerbg="color_1"] .nav-header {
+  background-color: #fff;
+}
+
+/* *****
+      hover active color changes in sidebar
+      ***** */
+
+.nk-sidebar .metismenu > li > a {
+  transition: none;
+}
+
+.nk-sidebar .metismenu > li:hover i,
+.nk-sidebar .metismenu > li:focus i,
+.nk-sidebar .metismenu > li:active i {
+  color: #4388ee !important;
+}
+
+.nk-sidebar .metismenu > li:hover span,
+.nk-sidebar .metismenu > li:focus span,
+.nk-sidebar .metismenu > li:active span {
+  color: #4388ee;
+}
+
+/* PM OTForm dropdown */
+
+.nk-sidebar .metismenu > li > ul > li:hover i,
+.nk-sidebar .metismenu > li > ul > li:hover a,
+.nk-sidebar .metismenu > li > ul > li:hover span {
+  color: black;
+}
+
+.nk-sidebar .metismenu > li > ul > li:active i,
+.nk-sidebar .metismenu > li > ul > li:active a,
+.nk-sidebar .metismenu > li > ul > li:active span {
+  color: #4388ee;
+}
+
+/* .nk-sidebar .metismenu>li.active>ul>a {
+    color: #464a53;
+}
+
+.nk-sidebar .metismenu>li>ul>li:hover span,
+.nk-sidebar .metismenu>li>ul>li:hover i,
+.nk-sidebar .metismenu>li>ul>li:hover a {
+    color: black;
+}
+
+.nk-sidebar .metismenu>li.active>ul>a {
+    color: black;
+} */
+
+/* 
+Log out btn styling 
+*/
+
+[data-sidebar-style="full"][data-layout="vertical"]
+  .menu-toggle
+  .nk-sidebar
+  .logout-btn {
+  display: none;
+}
+
+.logout-btn {
+  background-color: #4388ee;
+}
+
+.logout-btn:hover {
+  color: #fff;
+  background-color: rgba(67, 136, 238);
+}
+
+.btn-submit {
+  background-color: #4388ee;
+}
+
+.btn-submit:hover {
+  color: #fff;
+  background-color: rgba(67, 136, 238);
+}
+
+/* ===***
+Light when focus input type
+***=== */
+
+input[type="text"],
+textarea {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
+
+.form-control:focus,
+[type="text"]:focus,
+textarea:focus {
+  box-shadow: 0 0 5px rgba(67, 136, 238);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(67, 136, 238);
+}
+
+/* Date auto picker */
+
+.datepicker-autoclose {
+  overflow: visible;
+}
+
+/* .popover-date {
+    visibility: show;
+} */
+
+/* add or remove date style */
+
+.dates {
+  margin-right: 82px;
+  margin-top: 5px;
+}
+
+/* adding default ol number style */
+
+.default-ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-left: 15px;
+  font-size: 25px;
+}
+
+.default-ol > li {
+  margin: 20px;
+}
+
+.default-ol > li > a:hover {
+  color: #4388ee;
+  font-weight: bold;
+  transition: color 0.15s ease-in-out;
+}
+
+/* all Card bg color */
+
+h2,
+.h2 {
+  font-size: 1.6rem;
+}
+
+.noti .card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  height: 150px;
+}
+
+.card-bg {
+  background-color: hsla(216, 90%, 92%, 1);
+}
+
+/* Daily weekly monthly Chart style */
+
+.chartBox {
+  padding: 20px;
+  padding-top: 30px;
+  border-radius: 20px;
+  border: solid 1px rgba(67, 136, 238, 1);
+  background: white;
+  box-shadow: 0.01em 0.01em 1em rgba(67, 136, 238, 1);
+  text-align: center;
+}
+
+.chartBox > button {
+  padding: 7px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+
+.resize-canvas {
+  display: inline-block;
+  width: 38vw;
+  height: 350px;
+}
+
+/* HR choose file btn style */

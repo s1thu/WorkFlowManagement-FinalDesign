@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Quixlab - Bootstrap Admin Dashboard Template by Themefisher.com</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- Font Awesome Kit Code -->
+    <script src="https://kit.fontawesome.com/b1ef4c458f.js" crossorigin="anonymous"></script>
+    <!-- Pignose Calender -->
+    <link href="./plugins/pg-calendar/css/pignose.calendar.min.css" rel="stylesheet">
+    <!-- Chartist -->
+    <link rel="stylesheet" href="./plugins/chartist/css/chartist.min.css">
+    <link rel="stylesheet" href="./plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Custom CSS for team Zash -->
+    <link rel="stylesheet" href="css/customize.css">
+
+    <!-- Custom Stylesheet -->
+    <link href="./plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet">
+    <!-- Page plugins css -->
+    <link href="./plugins/clockpicker/dist/jquery-clockpicker.min.css" rel="stylesheet">
+    <!-- Color picker plugins css -->
+    <link href="./plugins/jquery-asColorPicker-master/css/asColorPicker.css" rel="stylesheet">
+    <!-- Date picker plugins css -->
+    <link href="./plugins/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet">
+    <!-- Daterange picker plugins css -->
+    <link href="./plugins/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
+    <link href="./plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <b class="logo-abbr"><img src="images/DATLogo.png  " alt=""> </b>
+                    <!-- small logo when toggle off  -->
+
+                    <span class="logo-compact"><img src="./images/DATLogo.png" class="img-fluid" alt=""></span>
+                    <span class="brand-title text-center">
+                        <img src="./images/DATLogo.png" class="img-fluid expand-logo w-50 h-50" alt="">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+            <div class="header-content clearfix">
+
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+
+
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons log-user  dropdown ">User :
+                        </li>
+                        <li class="icons log-user  dropdown ">Date :
+                        </li>
+                        <li class="icons dropdown d-none d-md-flex">
+                            <a href="javascript:void(0)" class="log-user" data-toggle="dropdown">
+                                <span>English</span> <i class="fa fa-angle-down f-s-14" aria-hidden="true"></i>
+                            </a>
+                            <div class="drop-down dropdown-language animated fadeIn  dropdown-menu">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li><a href="javascript:void()">English</a></li>
+                                        <li><a href="javascript:void()">Dutch</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar">
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu">
+
+                    <li>
+                        <a href="WFM-HRP-HOM-001.html" aria-expanded="false">
+                            <i class="fas fa-home"></i><span class="nav-text">Home</span>
+                        </a>
+                        </a>
+                    </li>
+                    <li>
+
+                        <a href="WFM-HRP-OTF-001.html" aria-expanded="false">
+                            <i class="fa-solid fa-file-lines"></i><span class="nav-text">OverTime Form</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="WFM-HRP-WHF-001.html" aria-expanded="false">
+                            <i class="fa-solid fa-file-lines"></i><span class="nav-text">Working Hour File Upload</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="WFM-HRP-REP-001.html" aria-expanded="false">
+                            <i class="fa-solid fa-chalkboard-user"></i><span class="nav-text">OverTime Report</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="WFM-HRP-R&S-001.html" aria-expanded="false">
+                            <i class="fa-solid fa-file-circle-exclamation"></i><span class="nav-text">Rules & Signature</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-expanded="false">
+                            <button type="button" class="btn ml-5 logout-btn ">Log out</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <div class="row page-titles mx-0">
+                <div class="col p-md-0">
+                    <ol class="breadcrumb">
+
+                        <li class="breadcrumb-item active"><a href="javascript:void(0)">OverTime Form</a></li>
+                    </ol>
+                </div>
+            </div>
+            <!-- row -->
+
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="card card-bg">
+                            <div class="card-body">
+                                <div class="form-validation">
+                                    <form class="form-valide" action="WFM-LGN001.html" method="post">
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label text-dark" for="val-username">Form ID <span
+                                                    class="text-danger">*</span>
+                                            </label>
+                                            <div class="col-lg-6">
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="DAT-XXXXXX">
+                                                <!-- <input type="text" class="form-control" id="val-username" name="val-username" placeholder="Enter a username.."> -->
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row ">
+                                            <label class="col-lg-4 col-form-label text-dark" for="val-confirm-password">OverTime Date <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="col-lg-6 add-date">
+                                                <div class="input-group ">
+                                                    <input type="text" class="form-control " id="datepicker-autoclose" placeholder="mm/dd/yyyy"> <span style="margin-top:5px;margin-bottom: 2px;" class="input-group-append"><span class="input-group-text"><i class="mdi mdi-calendar-check "></i></span></span>
+                                                    <span onclick="increment()" class="btn-lg  btn-success ml-2 mt-2">+</span>
+                                                    <h3 id="counting" class="mx-auto mt-3"> 0</h3>
+                                                    <span onclick="decrement()" class="btn-lg mt-2 btn-danger">-</span>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label text-dark" for="val-skill">Date Type<span
+                                                    class="text-danger">*</span>
+                                            </label>
+                                            <div class="col-lg-6">
+                                                <select class="form-control" id="val-skill" name="val-skill">
+                                                    <option value="">Please select</option>
+                                                    <option value="html">Weekend</option>
+                                                    <option value="css">WeekDay</option>
+                                                    <option value="javascript">Holiday</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label text-dark" for="val-skill">Time <span
+                                                    class="text-danger">*</span>
+                                            </label>
+                                            <div class="col-lg-2">
+                                                <select class="form-control" id="val-skill" name="val-skill" value="Start Hour">
+                                                    <option value="" disabled selected>Start Hour</option>
+                                                    <option value="html">1</option>
+                                                    <option value="css">2</option>
+                                                    <option value="javascript">3</option>
+                                                    <option value="angular">4</option>
+                                                    <option value="angular">5</option>
+                                                    <option value="vuejs">6</option>
+                                                    <option value="ruby">7</option>
+                                                    <option value="php">8</option>
+                                                    <option value="asp">9</option>
+                                                    <option value="python">10</option>
+                                                    <option value="mysql">11</option>
+                                                    
+                                                    <option value="html">12</option>
+                                                    <option value="css">13</option>
+                                                    <option value="javascript">14</option>
+                                                    <option value="angular">15</option>
+                                                    <option value="angular">16</option>
+                                                    <option value="vuejs">17</option>
+                                                    <option value="ruby">18</option>
+                                                    <option value="php">19</option>
+                                                    <option value="asp">20</option>
+                                                    <option value="python">21</option>
+                                                    <option value="mysql">22</option>
+                                                    <option value="python">23</option>
+                                                    <option value="mysql">24</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <select class="form-control" id="val-skill" name="val-skill" value="Finish Hour">
+                                                    <option value="" disabled selected>Finish Hour</option>
+                                                    <option value="html">1</option>
+                                                    <option value="css">2</option>
+                                                    <option value="javascript">3</option>
+                                                    <option value="angular">4</option>
+                                                    <option value="angular">5</option>
+                                                    <option value="vuejs">6</option>
+                                                    <option value="ruby">7</option>
+                                                    <option value="php">8</option>
+                                                    <option value="asp">9</option>
+                                                    <option value="python">10</option>
+                                                    <option value="mysql">11</option>
+                                                    
+                                                    <option value="html">12</option>
+                                                    <option value="css">13</option>
+                                                    <option value="javascript">14</option>
+                                                    <option value="angular">15</option>
+                                                    <option value="angular">16</option>
+                                                    <option value="vuejs">17</option>
+                                                    <option value="ruby">18</option>
+                                                    <option value="php">19</option>
+                                                    <option value="asp">20</option>
+                                                    <option value="python">21</option>
+                                                    <option value="mysql">22</option>
+                                                    <option value="python">23</option>
+                                                    <option value="mysql">24</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label text-dark" for="val-currency">Signature <span
+                                                    class="text-danger">*</span>
+                                            </label>
+                                            <div class="col-lg-6">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <input type="file" class="form-control-file">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label text-dark" for="val-currency">Reason <span
+                                                    class="text-danger">*</span>
+                                            </label>
+                                            <div class="col-lg-6">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <!-- <label>Comment:</label> -->
+                                                        <textarea class="form-control h-150px" rows="6" id="comment"></textarea>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-lg-8 ml-auto">
+                                                <button type="submit" class="btn btn-submit">Submit</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- #/ container -->
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Team ZASH</a> 2022
+                </p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+
+    <script src="./plugins/validation/jquery.validate.min.js"></script>
+    <script src="./plugins/validation/jquery.validate-init.js"></script>
+
+
+    <script src="./plugins/moment/moment.js"></script>
+    <script src="./plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+    <!-- Clock Plugin JavaScript -->
+    <script src="./plugins/clockpicker/dist/jquery-clockpicker.min.js"></script>
+    <!-- Color Picker Plugin JavaScript -->
+    <script src="./plugins/jquery-asColorPicker-master/libs/jquery-asColor.js"></script>
+    <script src="./plugins/jquery-asColorPicker-master/libs/jquery-asGradient.js"></script>
+    <script src="./plugins/jquery-asColorPicker-master/dist/jquery-asColorPicker.min.js"></script>
+    <!-- Date Picker Plugin JavaScript -->
+    <script src="./plugins/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <!-- Date range Plugin JavaScript -->
+    <script src="./plugins/timepicker/bootstrap-timepicker.min.js"></script>
+    <script src="./plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+    <script src="./js/plugins-init/form-pickers-init.js"></script>
+    <script src="./js/customize.js"></script>
+
+    <script type="text/javascript"></script>
+
+    <script src="plugins/common/common.min.js"></script>
+
+    <div class="popver-date datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-top" style="top: 270.078px; left: 43.9531px; z-index: 10; display: block;visibility: hidden;">
+        <div class="datepicker-days" >
+            <table class="table-condensed">
+                <thead>
+                    <tr>
+                        <th colspan="7" class="datepicker-title" style="display: none;"></th>
+                    </tr>
+                    <tr>
+                        <th class="prev">«</th>
+                        <th colspan="5" class="datepicker-switch">May 2022</th>
+                        <th class="next">»</th>
+                    </tr>
+                    <tr>
+                        <th class="dow">Su</th>
+                        <th class="dow">Mo</th>
+                        <th class="dow">Tu</th>
+                        <th class="dow">We</th>
+                        <th class="dow">Th</th>
+                        <th class="dow">Fr</th>
+                        <th class="dow">Sa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="old day">24</td>
+                        <td class="old day">25</td>
+                        <td class="old day">26</td>
+                        <td class="old day">27</td>
+                        <td class="old day">28</td>
+                        <td class="old day">29</td>
+                        <td class="old day">30</td>
+                    </tr>
+                    <tr>
+                        <td class="day">1</td>
+                        <td class="day">2</td>
+                        <td class="day">3</td>
+                        <td class="day">4</td>
+                        <td class="day">5</td>
+                        <td class="day">6</td>
+                        <td class="day">7</td>
+                    </tr>
+                    <tr>
+                        <td class="day">8</td>
+                        <td class="day">9</td>
+                        <td class="day">10</td>
+                        <td class="day">11</td>
+                        <td class="day">12</td>
+                        <td class="day">13</td>
+                        <td class="day">14</td>
+                    </tr>
+                    <tr>
+                        <td class="day">15</td>
+                        <td class="day">16</td>
+                        <td class="day">17</td>
+                        <td class="day">18</td>
+                        <td class="today day">19</td>
+                        <td class="day">20</td>
+                        <td class="day">21</td>
+                    </tr>
+                    <tr>
+                        <td class="day">22</td>
+                        <td class="day">23</td>
+                        <td class="day">24</td>
+                        <td class="day">25</td>
+                        <td class="day">26</td>
+                        <td class="day">27</td>
+                        <td class="day">28</td>
+                    </tr>
+                    <tr>
+                        <td class="day">29</td>
+                        <td class="day">30</td>
+                        <td class="day">31</td>
+                        <td class="new day">1</td>
+                        <td class="new day">2</td>
+                        <td class="new day">3</td>
+                        <td class="new day">4</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="7" class="today" style="display: none;">Today</th>
+                    </tr>
+                    <tr>
+                        <th colspan="7" class="clear" style="display: none;">Clear</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="datepicker-months" style="display: none;">
+            <table class="table-condensed">
+                <thead>
+                    <tr>
+                        <th colspan="7" class="datepicker-title" style="display: none;"></th>
+                    </tr>
+                    <tr>
+                        <th class="prev">«</th>
+                        <th colspan="5" class="datepicker-switch">2022</th>
+                        <th class="next">»</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month focused">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month">Aug</span>
+                            <span class="month">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="7" class="today" style="display: none;">Today</th>
+                    </tr>
+                    <tr>
+                        <th colspan="7" class="clear" style="display: none;">Clear</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="datepicker-years" style="display: none;">
+            <table class="table-condensed">
+                <thead>
+                    <tr>
+                        <th colspan="7" class="datepicker-title" style="display: none;"></th>
+                    </tr>
+                    <tr>
+                        <th class="prev">«</th>
+                        <th colspan="5" class="datepicker-switch">2020-2029</th>
+                        <th class="next">»</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year focused">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span>
+                            <span class="year">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year new">2030</span></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="7" class="today" style="display: none;">Today</th>
+                    </tr>
+                    <tr>
+                        <th colspan="7" class="clear" style="display: none;">Clear</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="datepicker-decades" style="display: none;">
+            <table class="table-condensed">
+                <thead>
+                    <tr>
+                        <th colspan="7" class="datepicker-title" style="display: none;"></th>
+                    </tr>
+                    <tr>
+                        <th class="prev">«</th>
+                        <th colspan="5" class="datepicker-switch">2000-2090</th>
+                        <th class="next">»</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="7"><span class="decade old">1990</span><span class="decade">2000</span><span class="decade">2010</span><span class="decade focused">2020</span><span class="decade">2030</span><span class="decade">2040</span><span class="decade">2050</span>
+                            <span class="decade">2060</span><span class="decade">2070</span><span class="decade">2080</span><span class="decade">2090</span><span class="decade new">2100</span></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="7" class="today" style="display: none;">Today</th>
+                    </tr>
+                    <tr>
+                        <th colspan="7" class="clear" style="display: none;">Clear</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="datepicker-centuries" style="display: none;">
+            <table class="table-condensed">
+                <thead>
+                    <tr>
+                        <th colspan="7" class="datepicker-title" style="display: none;"></th>
+                    </tr>
+                    <tr>
+                        <th class="prev">«</th>
+                        <th colspan="5" class="datepicker-switch">2000-2900</th>
+                        <th class="next">»</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="7"><span class="century old">1900</span><span class="century focused">2000</span><span class="century">2100</span><span class="century">2200</span><span class="century">2300</span><span class="century">2400</span><span class="century">2500</span>
+                            <span class="century">2600</span><span class="century">2700</span><span class="century">2800</span><span class="century">2900</span><span class="century new">3000</span></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="7" class="today" style="display: none;">Today</th>
+                    </tr>
+                    <tr>
+                        <th colspan="7" class="clear" style="display: none;">Clear</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
